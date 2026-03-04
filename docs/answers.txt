@@ -1,0 +1,81 @@
+Date completed Git Lab Tutorials: March 01, 2026
+Date GitHub account created: 8/26/2024
+GitHub Repository Link: https://github.com/J-Goble-Design/assignment2
+
+--------------------------------------------------
+
+1. Console Output After Push:
+Austin@Home-PC MINGW64 ~/assignment2 (master)
+$ git push -u origin master
+info: please complete authentication in your browser...
+warning: redirecting to https://github.com/J-Goble-Design/assignment2.git/
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 28 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 797 bytes | 797.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To http://github.com/J-Goble-Design/assignment2.git
+   f4975e5..1dc5e88  master -> master
+branch 'master' set up to track 'origin/master'.
+
+
+--------------------------------------------------
+
+2. How many commits have been done so far?
+Command used: git log --oneline
+Answer: 9
+
+--------------------------------------------------
+
+3. When was README.md modified last?
+Command used: git log -1 README.md
+Answer: 3/3/2026
+
+--------------------------------------------------
+
+4. Two reasons branches are used:
+- To develop features separately from main
+- To allow multiple developers to work in parallel
+
+--------------------------------------------------
+
+5. Difference between git log and git status:
+git log shows commit history.
+git status shows current working directory changes.
+
+--------------------------------------------------
+
+6. Command to see commits where Vehicle.h was committed:
+git log -- Vehicle.h
+
+--------------------------------------------------
+
+7. Command to see commits with "file" in message:
+git log --grep="file"
+
+--------------------------------------------------
+
+8. Object-Oriented Programming:
+
+Inheritance:
+A mechanism where a class acquires properties and behavior of another class.
+
+Polymorphism:
+The ability of objects to take many forms through method overriding or overloading.
+
+Encapsulation:
+Bundling data and methods together and restricting direct access to some components.
+
+--------------------------------------------------
+
+9. Difference between Dictator and Lieutenants workflow and Integration Manager workflow:
+The Dictator model has one main maintainer with trusted lieutenants managing sections of the project.
+The Integration Manager workflow allows contributors to maintain forks and submit pull requests to a central maintainer.
+
+--------------------------------------------------
+
+10. How a team of 100 developers benefits from Dictator workflow:
+The Dictator workflow scales better for large teams, reduces chaos, organizes 
+contributions through trusted maintainers, and minimizes merge conflicts.
