@@ -1,6 +1,13 @@
 Date completed Git Lab Tutorials: March 01, 2026
 Date GitHub account created: 8/26/2024
 GitHub Repository Link: https://github.com/J-Goble-Design/assignment2
+Fork and Close are proven in the repository
+
+Git Lab Tutorials Completed:
+- Learn Git Branching: Intoduction to Git Commits, Ramping Up detatch yo' HEAD, Git Remotes Clone Intro https://learngitbranching.js.org/  3/1/2026
+- Visualizing Git: ran commands as instructed. https://git-school.github.io/visualizing-git/ 3/1/2026
+- Explored git Resources on http://try.github.io/ 3/1/2026
+- Additonal Tutorial completed https://www.w3schools.com/git/exercise.asp 3/4/2026
 
 --------------------------------------------------
 
